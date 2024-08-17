@@ -38,7 +38,7 @@ int num[]={1,2,3,4,5,6};
 // 6 elements here
 
 //Declaration & Initialization of DDA
-int num[]={{1,2},{3,4},{5,6}};
+int num[][]={{1,2},{3,4},{5,6}};
 //3 rows & 2 columns here
 ```
 ## **Initializing elements**
