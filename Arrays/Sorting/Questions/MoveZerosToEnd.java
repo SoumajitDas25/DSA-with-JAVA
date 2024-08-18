@@ -1,14 +1,19 @@
-class BubbleSort
+//Given an array, move all 0's to the end of it while maintaining the relative order of non zero elements.
+//Provided it must be done in-place
+//Sample Input: a=[0,5,0,3,4,2]
+//Sample Output: a=[5,3,4,2,0,0]
+
+class MoveZerosToEnd 
 {
-    static void bubbleSort(int a[])
+    static void moveZerosToEnd(int a[])
     {
-        int n=a.length;
-        for(int i=0;i<n-1;i++)
+        int i,j,n=a.length;
+        boolean isSwapped=false;
+        for(i=0;i<n-1;i++)
         {
-            boolean isSwapped=false;
-            for(int j=0;j<n-i-1;j++)
+            for(j=0;j<n-i-1;j++)
             {
-                if(a[j]>a[j+1])
+                if(a[j]==0 && a[j+1]!=0)
                 {
                     int temp=a[j];
                     a[j]=a[j+1];
@@ -16,7 +21,7 @@ class BubbleSort
                     isSwapped=true;
                 }
             }
-            if(!isSwapped) //if no swap has occured in current iteration,then it means array is sorted, so no need to continue the loop
+            if(!isSwapped)
             break;
         }
     }
@@ -29,14 +34,13 @@ class BubbleSort
     }
     public static void main(String[] args) 
     {
-        int a[]={5,7,0,2,1};
+        int a[]={0,5,0,3,4,2};
         System.out.println("ARRAY BEFORE SORTING:");
         printArray(a);
-        bubbleSort(a);
+        moveZerosToEnd(a);
         System.out.println("\nARRAY AFTER SORTING:");
         printArray(a);
     }
 }
-
-//Time complexity: Ω(n) for best case, Θ(n^2) for average case, O(n^2) for worst case
+//Time complexity: O(n^2)
 //Space complexity: O(1)

@@ -6,6 +6,9 @@
 
 ## **Complexity Analysis**
 
-|Best Case|Average Case|Worst Case|
-|-|-|-|
-|O(n^2)|O(n^2)|O(n^2)|
+- ### Time Complexity 
+    |Best Case|Average Case|Worst Case|
+    |-|-|-|
+    |Ω(n^2)|Θ(n^2)|O(n^2)|
+
+- ### Space Complexity: O(1)
