@@ -1,0 +1,14 @@
+# **Count Sort Algorithm**
+- ### _Find the max element in the array._
+- ### _Create a Frequency array from the original array by Counting the no. of occurences of its each element._
+- ### _Convert the frequency array into its prefix sum array._
+- ### _Traverse the original array from end to start and place each element into its correct position in the output array by determining the last index of each repeated/non-repeated element from the prefix sum array & decrementing the postion by 1 after placing each element._
+
+## **Complexity Analysis**
+
+- ### Time Complexity 
+    |Best Case|Average Case|Worst Case|
+    |-|-|-|
+    |Ω(n)|Θ(n+max)|O(n+max)|
+
+- ### Space Complexity: O(n+max)
