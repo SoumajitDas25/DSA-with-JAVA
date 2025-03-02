@@ -15,7 +15,6 @@ public class RadixSort
         for(place=1;max/place>0;place*=10)
         {
             countSort(a, place);
-            printArray(a);
         }
 
     }
@@ -29,7 +28,6 @@ public class RadixSort
             if(maxDigit<((a[i]/place)%10))
             maxDigit=(a[i]/place)%10;
         }
-        System.out.println("\n"+maxDigit);
 
         //Create the frequency array
         count=new int[maxDigit+1];
