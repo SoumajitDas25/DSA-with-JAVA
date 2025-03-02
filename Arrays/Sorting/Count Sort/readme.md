@@ -11,7 +11,9 @@
 - ### Time Complexity 
     |Best Case|Average Case|Worst Case|
     |-|-|-|
-    |Ω(n)|Θ(n+max)|O(n+max)|
+    |Ω(n)|Θ(n+k)|O(n+k)|
 
-- ### Space Complexity: O(n+max)
-- ### _Not a good algorithm when max/range is too large._
+- ### Space Complexity: O(n+k)
+  ### _where k = max element_ 
+
+- ### _Not a good algorithm when k/range is too large._

@@ -54,5 +54,6 @@ class CountSort
         printArray(a);
     }
 }
-//Time Complexity: O(n) for best case, O(n+max) for worst & average case
-//Space Complexity: O(n+max)
+//Time Complexity: O(n) for best case, O(n+k) for worst & average case
+//Space Complexity: O(n+k)
+//where k = max element
