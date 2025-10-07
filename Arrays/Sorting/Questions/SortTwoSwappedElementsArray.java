@@ -1,3 +1,5 @@
+package Arrays.Sorting.Questions;
+
 //Given an array where all elements are sorted in ascending order excpet two swapped elements,sort it in linear time. Assume there are no duplicates in the array.
 //Input: [3,8,6,7,5,9,10]
 //Output: [3,5,6,7,8,9,10] 

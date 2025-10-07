@@ -1,6 +1,6 @@
 package Arrays.Searching.Questions;
 
-//Find the first occurence of a given element x, given that the given array is sorted. If no occurence of x is found, then return -1. Solve it in O(log n) time complexity.
+//Find the first occurrence of a given element x, given that the given array is sorted. If no occurence of x is found, then return -1. Solve it in O(log n) time complexity.
 //Input: [2,5,5,5,6,6,8,9,9,9], x=5
 //Output: 1
 

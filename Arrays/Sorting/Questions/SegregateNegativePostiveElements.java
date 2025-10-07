@@ -1,3 +1,5 @@
+package Arrays.Sorting.Questions;
+
 //Given an array of positive & negative integers, segregate them in linear time and constant space. The output should print all ngeative numbers, followed by all positive numbers.
 //Input: [19,-20,7,-4,-13,11-5,3]
 //Output: [-20,-4,-13,-5,7,11,19,3]

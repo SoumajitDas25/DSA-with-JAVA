@@ -1,3 +1,5 @@
+package Recursion.GCD;
+
 //Find GCD of 2 nos. using Euclid's Algo
 class Gcd 
 {

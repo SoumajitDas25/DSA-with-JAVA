@@ -1,3 +1,5 @@
+package Arrays.Sorting.Questions;
+
 //Given an array, move all 0's to the end of it while maintaining the relative order of non zero elements.
 //Provided it must be done in-place
 //Sample Input: a=[0,5,0,3,4,2]
